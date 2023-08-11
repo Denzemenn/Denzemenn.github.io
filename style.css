@@ -1,0 +1,217 @@
+header img{
+    width:100px;
+    height:100px;
+    position: relative;
+    top: 17px;
+    left: 80px;
+}
+header{
+    padding:5px;
+    height:120px;
+    background-color: #00223b;
+}
+*{
+    margin:0;
+    font-family: helvetica,arial,sans-serif;
+}
+main{
+    border-radius: 5px;
+    margin:50px;
+    margin-top: 40px;
+    padding: 24px 36px;
+}
+article{
+   background-color:#1e1f28; 
+   border-radius: 10px;
+   padding-left: 5px;
+   padding-bottom: 10px;
+}
+nav{
+    display: inline-flex;
+    height: 100%;
+    position: relative;
+    left: 90px;
+    top: 15px;
+    
+}
+nav>a{
+    color: #ffffff;
+    text-decoration: none;
+    margin:10px;
+    position:relative;
+    bottom:8px;
+    font-weight: 800;
+    font-size: 14px;
+    left: -150px;
+}
+.wiki_link{
+    text-decoration: none;
+    position:relative;
+    left: 80px;
+    bottom: 23px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+body{
+    background-color:#003153;
+}
+.pust{
+    height: 20px;
+    display: block;
+}
+#content, .page-header{
+    color:#e6e6e6;
+}
+.page-header{
+    font-weight: 300;
+    font-size: 36px;
+}
+#content>p{
+    font-size:14px;
+    font-weight: 100;
+}
+.content-img{
+    width: 20px;
+}
+#rope{
+    width: 5px;
+    height: 16px;
+}
+#bow{
+    width: 15px;
+    height:20px
+}
+figure{
+    border: 1px solid #4c4c51;
+    border-radius: 5px;
+    display: inline-block;
+}
+figcaption{
+    padding-top:3px;
+}
+#vulture{
+    width: 20px;
+}
+#antilion{
+    width: 20px;
+}
+.biome-desc>*{
+   margin: 5px;
+}
+#desert{
+    width: 600px;
+    background-color:#d4a017;
+    padding: 1em;
+    border-radius:10px;
+}
+#jungle{
+    width: 600px;
+    background-color:#BCE954;
+    padding: 1em;
+    border-radius:10px;
+    color:#00223b
+}
+#corruption{
+    width: 600px;
+    background-color:#7E587E;
+    padding: 1em;
+    border-radius:10px;
+}
+#snow{
+    width: 600px;
+    background-color:#7E875E;
+    padding: 1em;
+    border-radius:10px;
+}
+#rain{
+    width: 600px;
+    background-color:#7E698E;
+    padding: 1em;
+    border-radius:10px;
+}
+.art-h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+#catacomb{
+    width: 600px;
+    background-color:#CC9966;
+    padding: 1em;
+    border-radius:10px;
+}
+#cave{
+    width: 600px;
+    background-color:#ccc;
+    padding: 1em;
+    border-radius:10px;
+    color:#00223b
+}
+#ocean{
+    width: 600px;
+    background-color:#43c6db;
+    padding: 1em;
+    border-radius:10px;
+}
+#f-islands{
+    width: 600px;
+    background-color:#82cafa;
+    padding: 1em;
+    border-radius:10px;
+}
+#meteor{
+    width: 600px;
+    background-color:#c35817;
+    padding: 1em;
+    border-radius:10px;
+}
+.boss-desc>*{
+    margin: 5px;
+}
+.boss-desc{
+    width: 600px;
+    background-color:#6d7b8d;
+    padding: 1em;
+    border-radius:10px;
+    display: inline-block;
+}
+#dungeon{
+    width: 600px;
+    background-color:#9172ec;
+    padding: 1em;
+    border-radius:10px;
+}
+.art-h2, .art-h1{
+    border-bottom:1px solid #4c4c51;
+    padding-bottom:4px;
+}
+#hell{
+    width: 600px;
+    background-color:#c24641;
+    padding: 1em;
+    border-radius:10px;
+}
+#night{
+    width: 600px;
+    background-color:#98AFC7;
+    padding: 1em;
+    border-radius:10px;
+}
+#wallflesh{
+    height: 300px;
+}
+#sanctification{
+    width: 600px;
+    background-color:#FF508C;
+    padding: 1em;
+    border-radius:10px;
+}
+#underground-sanctification{
+    width: 600px;
+    background-color:#B4508C;
+    padding: 1em;
+    border-radius:10px;
+}
+.accessories{
+    margin-bottom: 3px;
+}
