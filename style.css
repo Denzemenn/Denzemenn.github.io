@@ -215,3 +215,24 @@ figcaption{
 .accessories{
     margin-bottom: 3px;
 }
+
+@keyframes desc-anim {
+    0%{
+        transform:translate(0px, -5px);
+    }  
+    100%{
+        transform:translate(0px, 5px);
+    }  
+}
+.boss-desc, .biome-desc, figure{
+    animation: desc-anim 2s 1s forwards alternate infinite ease-out;
+}
+.boss-desc:hover{
+    animation-play-state: paused;
+}
+.biome-desc:hover{
+    animation-play-state: paused;
+}
+figure:hover{
+    animation-play-state: paused;
+}
