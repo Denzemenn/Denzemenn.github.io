@@ -25,6 +25,7 @@ article{
    border-radius: 10px;
    padding-left: 5px;
    padding-bottom: 10px;
+   color:#ffffff;
 }
 nav{
     display: inline-flex;
@@ -100,32 +101,27 @@ figcaption{
    margin: 5px;
 }
 #desert{
-    width: 600px;
     background-color:#d4a017;
     padding: 1em;
     border-radius:10px;
 }
 #jungle{
-    width: 600px;
     background-color:#BCE954;
     padding: 1em;
     border-radius:10px;
     color:#00223b
 }
 #corruption{
-    width: 600px;
     background-color:#7E587E;
     padding: 1em;
     border-radius:10px;
 }
 #snow{
-    width: 600px;
     background-color:#7E875E;
     padding: 1em;
     border-radius:10px;
 }
 #rain{
-    width: 600px;
     background-color:#7E698E;
     padding: 1em;
     border-radius:10px;
@@ -135,32 +131,27 @@ figcaption{
     font-weight: 300;
 }
 #catacomb{
-    width: 600px;
     background-color:#CC9966;
     padding: 1em;
     border-radius:10px;
 }
 #cave{
-    width: 600px;
     background-color:#ccc;
     padding: 1em;
     border-radius:10px;
     color:#00223b
 }
 #ocean{
-    width: 600px;
     background-color:#43c6db;
     padding: 1em;
     border-radius:10px;
 }
 #f-islands{
-    width: 600px;
     background-color:#82cafa;
     padding: 1em;
     border-radius:10px;
 }
 #meteor{
-    width: 600px;
     background-color:#c35817;
     padding: 1em;
     border-radius:10px;
@@ -169,14 +160,12 @@ figcaption{
     margin: 5px;
 }
 .boss-desc{
-    width: 600px;
     background-color:#6d7b8d;
     padding: 1em;
     border-radius:10px;
     display: inline-block;
 }
 #dungeon{
-    width: 600px;
     background-color:#9172ec;
     padding: 1em;
     border-radius:10px;
@@ -186,13 +175,11 @@ figcaption{
     padding-bottom:4px;
 }
 #hell{
-    width: 600px;
     background-color:#c24641;
     padding: 1em;
     border-radius:10px;
 }
 #night{
-    width: 600px;
     background-color:#98AFC7;
     padding: 1em;
     border-radius:10px;
@@ -201,13 +188,11 @@ figcaption{
     height: 300px;
 }
 #sanctification{
-    width: 600px;
     background-color:#FF508C;
     padding: 1em;
     border-radius:10px;
 }
 #underground-sanctification{
-    width: 600px;
     background-color:#B4508C;
     padding: 1em;
     border-radius:10px;
@@ -216,23 +201,53 @@ figcaption{
     margin-bottom: 3px;
 }
 
-@keyframes desc-anim {
-    0%{
-        transform:translate(0px, -5px);
-    }  
-    100%{
-        transform:translate(0px, 5px);
-    }  
+.hgroup{
+    display: inline-block;
+    
 }
-.boss-desc, .biome-desc, figure{
-    animation: desc-anim 2s 1s forwards alternate infinite ease-out;
+.content__advanced-biome-desc--forest{
+    border: 1px solid #4c4c51;
+    background-color:#1e1f28;
+    border-radius: 5px;
 }
-.boss-desc:hover{
-    animation-play-state: paused;
+.box{
+    border: 1px solid #4c4c51;
+    margin-top:15px;
+    border-radius: 5px;
+    padding: 5px;
+    width:48%
 }
-.biome-desc:hover{
-    animation-play-state: paused;
+.box-block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
 }
-figure:hover{
-    animation-play-state: paused;
+.adv-biome-desc-h2{
+    font-size:14px;
+    margin-bottom:3px
+}
+.bigger-box{
+    border: 1px solid #4c4c51;
+    margin-top:15px;
+    border-radius: 5px;
+    padding: 10px;
+    width:100%;
+}
+.bigger-box>span{
+    padding-right: 10px;
+}
+
+
+@media (min-width: 320px) { 
+    .art-h1{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .biome-desc{
+        width: 90%;
+    }
+}
+
+.boss-desc{
+    width: 90%;
 }
